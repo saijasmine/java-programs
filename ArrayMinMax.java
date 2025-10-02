@@ -18,3 +18,17 @@ class Main {
         System.out.println(min);
     }
 }
+-----------------------------------------------
+    //collections
+    import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+         List<Integer> list=new LinkedList<>(Arrays.asList(1,2,43,21));
+         int min=Collections.min(list);
+         int max=Collections.max(list);
+         
+         System.out.println(min);
+         System.out.println(max);
+    }
+}
